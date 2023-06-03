@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+    background: #18244a;
+}
+
+.container {
+   
+    display: flex;
+    flex-direction: ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@font-face{
+src: url(CursedTimerUlil-Aznm.ttf);
+font-family: 'CursedTimerUlil-Aznm';
+font-style: normal;
+font-weight: 400;
+}
+
+.home-title{
+    color: #EEEEEE;
+    width: 140px;
+    height: 36px;
+    left: 65px;
+    top: 68px;
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+#home-cl{
+     background: #080001;  
+     margin:4px;
+     margin-top: -20px;
+     margin-bottom: 10px ;
+    padding-top: 15px ;
+     font-weight: 400;
+     font-size: 90px;
+     text-align: center;
+     border-radius: 5px;
+     color: #f94f6D;
+     font-family:'CursedTimerUlil-Aznm';
+     
+}
+
+.guest-title{
+    color: #EEEEEE;
+    width: 149px;
+    height:36px;
+    top: 68px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+} 
+
+#guest-cl{
+    background: #080001;  
+    margin:4px;
+    margin-top:-20px;
+    margin-bottom: 10px ;
+   padding-top: 15px ;
+    font-weight: 400;
+    font-size: 90px;
+    text-align: center;
+    border-radius: 5px;
+    color: #f94f6D;
+    font-family:'CursedTimerUlil-Aznm';
+}
+
+.btn{
+padding-top: 10px;
+padding-bottom: 8px;
+padding-right:30px ;
+width: 30px;
+margin-left: 5px;
+margin-top: 15px;
+font-family: 'CursedTimerUlil-Aznm';
+font-weight: 400;
+font-size: 18px;
+font-style: normal;
+border: 2px solid  #9AABD8;
+border-radius: 5px;
+color: #9AABD8;
+background-color: #18244a;
+}
